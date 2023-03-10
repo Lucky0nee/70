@@ -62,7 +62,7 @@ int main() {
 			std::cout << "\n";
 		}
 
-		for (int i = 0; i < LastIndex; i++) {
+		for (int i = FirstIndex; i < LastIndex; i++) {
 			if (vec[i].getAverageScore() > highScore) {
 				highScore = vec[i].getAverageScore();
 				id = i;
